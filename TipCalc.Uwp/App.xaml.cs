@@ -1,12 +1,9 @@
-﻿using MvvmCross.Platforms.Uap.Core;
-using MvvmCross.Platforms.Uap.Views;
-
-namespace TipCalc.Uwp
+﻿namespace TipCalc.Uwp
 {
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.
     /// </summary>
-    sealed partial class App
+    sealed partial class App : TipCalcApp
     {
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
@@ -16,9 +13,5 @@ namespace TipCalc.Uwp
         {
             this.InitializeComponent();
         }
-    }
-
-    public abstract class TipCalcApp : MvxApplication<MvxWindowsSetup<Core.App>, Core.App>
-    {
     }
 }
