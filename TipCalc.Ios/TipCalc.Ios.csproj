@@ -66,6 +66,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="Entitlements.plist" />
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
+    <InterfaceDefinition Include="Views\TipView.xib" />
+    <Compile Include="Views\TipView.cs" />
+    <Compile Include="Views\TipView.designer.cs">
+      <DependentUpon>TipView.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
