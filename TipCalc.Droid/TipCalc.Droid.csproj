@@ -73,15 +73,15 @@
     <None Include="Assets\AboutAssets.txt" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\activity_main.axml">
+    <AndroidResource Include="Resources\layout\activity_main.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\values\colors.axml" />
-    <AndroidResource Include="Resources\values\ic_launcher_background.axml" />
-    <AndroidResource Include="Resources\values\strings.axml" />
-    <AndroidResource Include="Resources\values\styles.axml" />
-    <AndroidResource Include="Resources\mipmap-anydpi-v26\ic_launcher.axml" />
-    <AndroidResource Include="Resources\mipmap-anydpi-v26\ic_launcher_round.axml" />
+    <AndroidResource Include="Resources\values\colors.xml" />
+    <AndroidResource Include="Resources\values\ic_launcher_background.xml" />
+    <AndroidResource Include="Resources\values\strings.xml" />
+    <AndroidResource Include="Resources\values\styles.xml" />
+    <AndroidResource Include="Resources\mipmap-anydpi-v26\ic_launcher.xml" />
+    <AndroidResource Include="Resources\mipmap-anydpi-v26\ic_launcher_round.xml" />
     <AndroidResource Include="Resources\mipmap-hdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\mipmap-hdpi\ic_launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-hdpi\ic_launcher_round.png" />
@@ -117,7 +117,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\TipView.axml">
+    <AndroidResource Include="Resources\layout\TipView.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
