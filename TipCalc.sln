@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TipCalc.Forms.Ui", "TipCalc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalc.Forms.Droid", "TipCalc.Forms.Droid\TipCalc.Forms.Droid.csproj", "{CA25839A-CA2E-42E2-87B4-6C1C2AFAAAA7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalc.Forms.Ios", "TipCalc.Forms.Ios\TipCalc.Forms.Ios.csproj", "{FD48DBBC-77C4-4480-AD7F-85F1F5125178}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -251,6 +253,24 @@ Global
 		{CA25839A-CA2E-42E2-87B4-6C1C2AFAAAA7}.Release|x86.ActiveCfg = Release|Any CPU
 		{CA25839A-CA2E-42E2-87B4-6C1C2AFAAAA7}.Release|x86.Build.0 = Release|Any CPU
 		{CA25839A-CA2E-42E2-87B4-6C1C2AFAAAA7}.Release|x86.Deploy.0 = Release|Any CPU
+		{FD48DBBC-77C4-4480-AD7F-85F1F5125178}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+		{FD48DBBC-77C4-4480-AD7F-85F1F5125178}.Debug|ARM.ActiveCfg = Debug|iPhone
+		{FD48DBBC-77C4-4480-AD7F-85F1F5125178}.Debug|ARM64.ActiveCfg = Debug|iPhone
+		{FD48DBBC-77C4-4480-AD7F-85F1F5125178}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{FD48DBBC-77C4-4480-AD7F-85F1F5125178}.Debug|iPhone.Build.0 = Debug|iPhone
+		{FD48DBBC-77C4-4480-AD7F-85F1F5125178}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{FD48DBBC-77C4-4480-AD7F-85F1F5125178}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{FD48DBBC-77C4-4480-AD7F-85F1F5125178}.Debug|x64.ActiveCfg = Debug|iPhone
+		{FD48DBBC-77C4-4480-AD7F-85F1F5125178}.Debug|x86.ActiveCfg = Debug|iPhone
+		{FD48DBBC-77C4-4480-AD7F-85F1F5125178}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{FD48DBBC-77C4-4480-AD7F-85F1F5125178}.Release|ARM.ActiveCfg = Release|iPhone
+		{FD48DBBC-77C4-4480-AD7F-85F1F5125178}.Release|ARM64.ActiveCfg = Release|iPhone
+		{FD48DBBC-77C4-4480-AD7F-85F1F5125178}.Release|iPhone.ActiveCfg = Release|iPhone
+		{FD48DBBC-77C4-4480-AD7F-85F1F5125178}.Release|iPhone.Build.0 = Release|iPhone
+		{FD48DBBC-77C4-4480-AD7F-85F1F5125178}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{FD48DBBC-77C4-4480-AD7F-85F1F5125178}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{FD48DBBC-77C4-4480-AD7F-85F1F5125178}.Release|x64.ActiveCfg = Release|iPhone
+		{FD48DBBC-77C4-4480-AD7F-85F1F5125178}.Release|x86.ActiveCfg = Release|iPhone
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
