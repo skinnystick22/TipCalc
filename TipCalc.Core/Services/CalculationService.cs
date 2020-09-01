@@ -4,7 +4,7 @@
     {
         public double TipAmount(double subTotal, int generosity)
         {
-            return subTotal * ((double) generosity) / 100;
+            return subTotal * generosity / 100;
         }
     }
 }
