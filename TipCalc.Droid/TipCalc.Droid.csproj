@@ -16,7 +16,6 @@
         <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
         <AndroidResgenClass>Resource</AndroidResgenClass>
         <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
-        <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
         <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
         <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
         <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
@@ -77,9 +76,9 @@
         <AndroidResource Include="Resources\values\styles.xml" />
     </ItemGroup>
     <ItemGroup>
-        <PackageReference Include="MvvmCross" Version="7.0.0" />
+        <PackageReference Include="MvvmCross" Version="7.1.2" />
         <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.3" />
-        <PackageReference Include="Xamarin.AndroidX.Lifecycle.LiveData" Version="2.2.0.2" />
+        <PackageReference Include="Xamarin.AndroidX.Lifecycle.LiveData" Version="2.2.0.3" />
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\TipCalc.Core\TipCalc.Core.csproj">
