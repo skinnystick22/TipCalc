@@ -17,7 +17,7 @@ namespace TipCalc.Core.ViewModels
             set
             {
                 _subTotal = value;
-                RaisePropertyChanged(() => SubTotal);
+                RaisePropertyChanged(nameof(SubTotal));
 
                 Recalculate();
             }
@@ -29,7 +29,7 @@ namespace TipCalc.Core.ViewModels
             set
             {
                 _generosity = value;
-                RaisePropertyChanged(() => Generosity);
+                RaisePropertyChanged(nameof(Generosity));
 
                 Recalculate();
             }
@@ -41,7 +41,7 @@ namespace TipCalc.Core.ViewModels
             set
             {
                 _tip = value;
-                RaisePropertyChanged(() => Tip);
+                RaisePropertyChanged(nameof(Tip));
             }
         }
 
