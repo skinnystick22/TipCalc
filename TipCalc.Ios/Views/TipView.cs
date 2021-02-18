@@ -1,8 +1,6 @@
-﻿using System;
-using MvvmCross.Binding.BindingContext;
+﻿using MvvmCross.Binding.BindingContext;
 using MvvmCross.Platforms.Ios.Views;
 using TipCalc.Core.ViewModels;
-using UIKit;
 
 namespace TipCalc.Ios.Views
 {
@@ -30,4 +28,3 @@ namespace TipCalc.Ios.Views
         }
     }
 }
-

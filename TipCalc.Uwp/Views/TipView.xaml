@@ -11,10 +11,10 @@
         <TextBlock Text="SubTotal" />
         <TextBox Text="{Binding SubTotal, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
         <TextBlock Text="Generosity" />
-        <Slider Value="{Binding Generosity,Mode=TwoWay}" 
-                SmallChange="1" 
-                LargeChange="10" 
-                Minimum="0" 
+        <Slider Value="{Binding Generosity,Mode=TwoWay}"
+                SmallChange="1"
+                LargeChange="10"
+                Minimum="0"
                 Maximum="100" />
         <TextBlock Text="Tip to leave" />
         <TextBlock Text="{Binding Tip}" />

@@ -7,9 +7,14 @@ namespace TipCalc.Core.ViewModels
     public class TipViewModel : MvxViewModel
     {
         private readonly ICalculationService _calculationService;
+        private int _generosity;
 
         private double _subTotal, _tip;
-        private int _generosity;
+
+        public TipViewModel(ICalculationService calculationService)
+        {
+            _calculationService = calculationService;
+        }
 
         public double SubTotal
         {
@@ -43,11 +48,6 @@ namespace TipCalc.Core.ViewModels
                 _tip = value;
                 RaisePropertyChanged(nameof(Tip));
             }
-        }
-
-        public TipViewModel(ICalculationService calculationService)
-        {
-            _calculationService = calculationService;
         }
 
         public override async Task Initialize()
